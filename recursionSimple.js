@@ -17,3 +17,14 @@ function fibonacci(n) {
 
 count(10, 1);
 console.log(fibonacci(12));
+
+function count2(num) {
+    console.log(num);
+    if (num === 1) {
+        return 1;
+    }
+
+    count2(num - 1);
+}
+
+//count2(10);
